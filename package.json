@@ -1,0 +1,35 @@
+{
+	"name": "ikofi",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BirasaDivine/ikofi.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BirasaDivine/ikofi/issues"
+	},
+	"homepage": "https://github.com/BirasaDivine/ikofi#readme",
+	"description": "",
+	"devDependencies": {
+		"@eslint/js": "^9.36.0",
+		"eslint": "^9.36.0",
+		"eslint-plugin-react": "^7.37.5",
+		"globals": "^16.4.0",
+		"typescript-eslint": "^8.44.0"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.13",
+		"tailwindcss": "^4.1.13"
+	},
+	"type:check": "yarn tsc --project tsconfig.json --pretty --noEmit"
+}
